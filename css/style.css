@@ -21,7 +21,15 @@ h1{
 .container{
     width: 700px;
     height: 500px;
-    background-color: aquamarine;
     border: 10px solid coral;
     border-radius: 5px;
+    display: inline-grid;
+    /* grid-gap: 1px; */
+    grid-template-columns: repeat(16, auto);
+    grid-template-rows: repeat(16, auto);
+    /* padding: 1px; */
+}
+
+.grid-item{
+    border: 1px solid gray;
 }
